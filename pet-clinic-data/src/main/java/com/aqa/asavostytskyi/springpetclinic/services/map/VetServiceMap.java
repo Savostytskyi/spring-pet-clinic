@@ -1,12 +1,12 @@
 package com.aqa.asavostytskyi.springpetclinic.services.map;
 
 import com.aqa.asavostytskyi.springpetclinic.model.person.Vet;
-import com.aqa.asavostytskyi.springpetclinic.services.CrudService;
+import com.aqa.asavostytskyi.springpetclinic.services.VetService;
 
 import java.util.Set;
 
 public final class VetServiceMap extends AbstractMapService<Vet, Long>
-        implements CrudService<Vet, Long> {
+        implements VetService {
 
     @Override
     public Set<Vet> findAll() {
