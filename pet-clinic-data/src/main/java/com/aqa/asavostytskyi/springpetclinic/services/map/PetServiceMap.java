@@ -2,9 +2,11 @@ package com.aqa.asavostytskyi.springpetclinic.services.map;
 
 import com.aqa.asavostytskyi.springpetclinic.model.pet.Pet;
 import com.aqa.asavostytskyi.springpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public final class PetServiceMap extends AbstractMapService<Pet, Long>
         implements PetService {
 
