@@ -1,6 +1,6 @@
 package com.aqa.asavostytskyi.springpetclinic.model.person;
 
-import com.aqa.asavostytskyi.springpetclinic.model.Specialty;
+import com.aqa.asavostytskyi.springpetclinic.model.Speciality;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,5 +11,5 @@ import java.util.Set;
 @Setter
 public class Vet extends Person {
 
-    private Set<Specialty> specialties = new HashSet<>();
+    private Set<Speciality> specialties = new HashSet<>();
 }
